@@ -1,1 +1,40 @@
+/** Criando repositorio na linha de comando **/
+
+Inicializando um repositorio na linha de comando
+#git init 
+
+Adicionando arquivo.
+git add .  / git add *.*  -> adicionando todos os arquivos
+
+Commitando 
+#git commit -m "Mensagem"
+#git commit -a -m "mensagem"  -a == all
+Criando uma branch
+#git branch -M main ou outro nome apropriado
+
+Adicionando o repositorio
+#git remote add origin <endereço>
+
+Enviar para o repositorio
+#git push -u origin main
+
+**Se o repositiorio ja existe
+
+#git remote add origin <endereço>
+#git branch -M main
+#git push -u origin main
+
+#git remote -v -> ver a origem
+
+#git remove rm origin -> remove a origin 
+
+Status do arquivo
+#git Status
+
+**Recebendo as mudanças
+#git pull
+
+**Clonando repositorio
+git clone
+
 
