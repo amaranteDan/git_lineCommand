@@ -47,3 +47,11 @@ git clone
 **Historico de mudanças
 #git log
 
+**Desfazer alterações
+#git checkout <arquivo>
+
+**Ignorar arquivos - Criar arquivo
+# .gitignore
+
+**Desfazer todas as alterações
+#git reset  --hard ->perde tudo referente as alterações realizadas.
