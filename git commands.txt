@@ -38,3 +38,12 @@ Status do arquivo
 git clone
 
 
+**Remover arquivos
+#git rm
+
+#git commit -a -m "mensagem" commit
+#git push -> e faz o push
+
+**Historico de mudanças
+#git log
+
