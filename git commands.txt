@@ -54,4 +54,35 @@ git clone
 # .gitignore
 
 **Desfazer todas as alterações
-#git reset  --hard ->perde tudo referente as alterações realizadas.
+#git reset  --hard origin/origin ->perde tudo referente as alterações realizadas.
+
+**Criando Branchs.**
+
+Ver as branches
+#git branch
+
+Criar nova
+#git branch <nome>
+
+**Novamente clonar repositorio.
+git clone <endereço> .  para clonar no local.
+
+**Criar uma nova branch para poder atuar no projeto.
+
+**Apagar uma branch - Não é comum. É utilizado como historico
+#git branch -d <branch> ou --delete
+
+**Mudar de Branch.
+#git checkout -b <branch> -> Cria e muda para um branch
+
+**Antes de mudar de branch, commitar os arquivos modificados.
+
+**Para receber as atualizações da master, sempre pir para ela e dar um git pull.
+
+**Unindo branchs - Merge.
+#git merge <nome>
+
+
+
+
+
