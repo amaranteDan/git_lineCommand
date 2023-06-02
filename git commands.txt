@@ -82,7 +82,36 @@ git clone <endereço> .  para clonar no local.
 **Unindo branchs - Merge.
 #git merge <nome>
 
+**Dica não atualizar a master com o push. 
 
+**Stash
+#git stash -- Manda o codigo commitado para a lixeira
 
+**Recuperar o Stash
 
+#git stash list - lista as lixeiras.
 
+#git stash apply <stash> recupera tudo que foi lançado na lixeira.
+
+#git stash show -p <numero_stash> Ver as diferenças dos arquivos.
+
+#git stash drop <numero> drop a stash.
+
+#git stash clear - Limpa todas as stashes.
+
+#git stash delete<stash>
+
+**Criando tags - Criar marcos de desenvolvimentos / Demarca estagios
+
+#git tag -a <nome> -m <mensagem> 
+
+#git tag
+
+**Alterando a tag.
+
+git show <nome_tag>
+git checkout <nome_tag>
+
+**Enviar a tag para o repositorio.
+
+#git push origin --tags <todas as tags são enviadas> ou git push origin <tag>
