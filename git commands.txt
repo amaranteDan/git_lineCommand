@@ -115,3 +115,41 @@ git checkout <nome_tag>
 **Enviar a tag para o repositorio.
 
 #git push origin --tags <todas as tags são enviadas> ou git push origin <tag>
+
+******************************************************************************
+Sessão de Compartilhamento e atualização.
+V1.1.
+
+**Encontra branchs remotos.
+
+#git fetch -> mapea os branchs. 
+#git fetch -a -> Lista todos os branches remotos e fazendo o git branch checkout <branch> pego a branch
+
+**Receber atualizações.
+#git pull
+
+**Connhecendo submodulos para colocar 2 ou mais projetos em so repositorio.
+#git submodule add <endereco_repo> <nome>
+
+#git submodule
+
+ #git pull
+
+ **Atualizar submodulos.
+ #git commit -a -m "Mensagem"
+ #git push --recurse-submodules=on-demand
+
+ **Analises e inspeção de codigos.
+
+**Exibir detalhes da branch.
+#git show  -Mostra o branch atual.
+#git show <tag>
+
+**Verificando as diferenças.
+
+#git diff <arquivo> <arquivo_b>
+
+**Log resumido do projeto
+#git shortlog
+
+**Administração do Repositorio. -> 02/06/2023
