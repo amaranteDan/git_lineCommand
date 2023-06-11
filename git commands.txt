@@ -153,3 +153,24 @@ V1.1.
 #git shortlog
 
 **Administração do Repositorio. -> 02/06/2023
+
+**Limpando arquivos do Untracked
+
+#git clean -f (force)
+
+**Otimizar arquivo  Garbage collector. Identificar arquivos que não são mais necessarios.
+#git gc
+
+**Verificar a integridade de arquivos
+#git fsck 
+
+**Comando Reflog. Mapea todos os seus passos no repositorio, até mudança de branch.
+#git Reflog
+
+**Realizando backup rapido do repo. Transforma o repo em um arquivo.
+
+#git archive --format zip --output master_files.zip master
+
+#git archive --format zip --output <nome_repo.zip> <nome_branch>
+
+**Melhorando os commits 11/06.
