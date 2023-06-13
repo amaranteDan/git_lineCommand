@@ -179,3 +179,13 @@ V1.1.
 #git rebase <branch> <branch> -i 
 i de insert
 :x! sai e salva.
+
+Cria boas mensagens de commit.
+
+No commit pode colocar textos explicados da função ou do codigo que foi criado.
+
+**Iniciando o entendimento do github
+
+Quando criar um repositorio no github, incluir licença Mit, o gitignore com o template<nodejs> entre outras coisas
+
+Aba Code -> Verifica o codigo fonte da aplicação.
