@@ -174,3 +174,8 @@ V1.1.
 #git archive --format zip --output <nome_repo.zip> <nome_branch>
 
 **Melhorando os commits 11/06.
+
+#private branches -> brnaches que não são compartilhadas no repositorio.
+#git rebase <branch> <branch> -i 
+i de insert
+:x! sai e salva.
